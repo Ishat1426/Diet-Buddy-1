@@ -2,7 +2,7 @@ import { useState, useRef } from 'react';
 import axios from 'axios';
 
 // Base API URL
-const API_URL = 'https://diet-buddy-1.onrender.com';
+const API_URL = 'https://diet-buddy-1.onrender.com/api';
 
 // Cache duration in milliseconds (5 seconds)
 const CACHE_DURATION = 5000;
