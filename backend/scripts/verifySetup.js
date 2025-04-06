@@ -4,7 +4,7 @@ const axios = require('axios');
 const bcrypt = require('bcryptjs');
 const User = require('../models/User');
 
-const API_URL = `https://diet-buddy-1.onrender.com`;
+const API_URL = `https://diet-buddy-1.onrender.com/api`;
 
 // Test user data with unique email to avoid duplicates
 const testUser = {
